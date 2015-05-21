@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'SFAtarian';
+  src: url('SFAtarian.eot');
+  src: url('SFAtarian.eot?#iefix') format('embedded-opentype'),
+       url('SFAtarian.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    font-size:1.0em;
+	font-family: "SFAtarian",serif;
+}
+h2{font-size:1.3em; margin:5px 0 0 0; color:#416CE5;}
+
+ul{margin:0;padding:0;}
+li{margin:0;padding:0;}
+
+#field{
+	margin-top:10px;
+    width: 480px;
+	height:800px;
+	background:url(../img/campo.jpg) no-repeat;
+	float:left;
+	
+}
+
+.position{
+        height: 82px;
+        width: 70px;
+		background:url(../img/camisetascolor_pque/blanco.png) no-repeat top center;
+		position:relative;	
+		cursor:pointer;	
+}
+.position span {
+	top:15px;
+	position:absolute;
+	text-align: center;
+    font-size:1.7em;
+	font-weight:bold;
+    width: 100%;
+	color: #FF0000;	
+}
+.position p {
+        float: left;
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+		font: bold 12px Arial;
+		color: #F00;
+		background-color:#FFF;
+		border: 1px solid #F00;
+}
+
+.position input {
+        float: left;
+        margin-top: 30px;
+        text-align: center;
+        width: 100%;
+		color: #004080;
+		background-color:#FFF;
+		border: 1px solid #004080;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+}
+
+.rayav {
+    top: 6px;
+	left:75px;
+    background: #FFF;
+    margin-left:12px;
+    width: 20px;
+    height: 238px;
+	position:relative;
+	list-style:none;
+	display:inline-block;
+  }
+.minirayav {
+    top: 6px;
+
+    background: #DD41DC;
+    margin-left:2px;
+    width: 5px;
+    height: 60px;
+	position:relative;
+	list-style:none;
+	display:inline-block;
+  }
+  
+  .rayah {
+    top: 10px;
+	left:80px;
+	background: #F90;
+    margin-bottom:15px;
+	width: 141px;
+    height: 20px;;
+	position:relative;
+	list-style:none;
+  }
+  .minirayah {
+    top: 10px;
+	left:80px;
+	background: #F90;
+    margin-bottom:15px;
+	width: 141px;
+    height: 20px;;
+	position:relative;
+	list-style:none;
+  }
+  #camisa{
+	background-image: url(../img/camisetascolor/blanco.png);
+	width:300px; height:250px;
+	/*background-clip:content-box;*/
+	background-color:#FFF;
+
+  }
+#dorsal{
+	top:40px;
+	position:absolute;
+	left: 130px;
+    font-size:7.7em;
+	font-weight:bold;
+    /*width: 100%;*/
+	color: #FF0000;	
+}
+
+
+.POR{background: #CE0000; }
+.DEF{background: #F90; }
+.MED{background: #3C6; }
+.DEL{background: #369; }
+
+/* 442 por defecto */
+#num01{ top: 700px; left: 210px; }
+#num02{ top: 525px; left: 390px; }
+#num03{ top: 525px; left: 30px; }
+#num04{ top: 525px; left: 265px; }
+#num05{ top: 275px; left: 265px; }
+#num06{ top: 525px; left: 140px; }
+#num07{ top: 75px; left: 265px; }
+#num08{ top: 275px; left: 390px; }
+#num09{ top: 75px; left: 140px; }
+#num10{ top: 275px; left: 140px; }
+#num11{ top: 275px; left: 30px; }
+

@@ -1,0 +1,25 @@
+/*
+$(function() {
+        $(".item").draggable({
+                revert: true
+        });
+        $("#trash").droppable({
+                tolerance: 'touch',
+                over: function() {
+                       $(this).removeClass('out').addClass('over');
+                },
+                out: function() {
+                        $(this).removeClass('over').addClass('out');
+                },
+                drop: function() {
+                        $(this).removeClass('over').addClass('out');
+						//var texto ="Mierda";
+						var texto = $( "<span></span>" ).text( ui.draggable.text() ).text();
+	 					alert(texto);
+						
+						//$("#mostrar").text(texto);
+                }
+        });
+});
+
+*/
